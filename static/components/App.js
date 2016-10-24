@@ -1,9 +1,13 @@
 import React from 'react';
+import TextInput from './TextInput.js';
 
 class App extends React.Component {
   render () {
     return (
-      <h1> This is the App component!! </h1>
+      <div>
+        <h1> This is the App component!! </h1>
+        <TextInput />
+      </div>
     );
   }
 }
